@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Krithi — building quiet, human software</title>
+  <desc id="desc">An animated dark blue and violet glass-like hero banner with the words Krithi and building quiet, human software.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b18"/>
+      <stop offset="0.55" stop-color="#111a35"/>
+      <stop offset="1" stop-color="#22113d"/>
+    </linearGradient>
+    <radialGradient id="glowA">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <style>
+      .float { animation: drift 8s ease-in-out infinite alternate; }
+      .float2 { animation: drift2 11s ease-in-out infinite alternate; }
+      .pulse { animation: pulse 4s ease-in-out infinite; }
+      @keyframes drift { to { transform: translate(48px, -18px) scale(1.08); } }
+      @keyframes drift2 { to { transform: translate(-42px, 22px) scale(.94); } }
+      @keyframes pulse { 50% { opacity: .42; } }
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle class="float" cx="940" cy="70" r="230" fill="url(#glowA)" filter="url(#blur)"/>
+  <circle class="float2" cx="210" cy="330" r="210" fill="url(#glowB)" filter="url(#blur)"/>
+  <path d="M0 272 C180 222 290 318 465 270 S760 204 1200 266" fill="none" stroke="#ffffff" stroke-opacity=".09"/>
+  <path d="M0 286 C180 236 290 332 465 284 S760 218 1200 280" fill="none" stroke="#a78bfa" stroke-opacity=".16"/>
+  <g transform="translate(88 76)">
+    <text x="0" y="68" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="76" font-weight="750" letter-spacing="-3">Krithi</text>
+    <circle class="pulse" cx="252" cy="43" r="7" fill="#67e8f9"/>
+    <text x="4" y="122" fill="#c4b5fd" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="25" letter-spacing="1">building quiet, human software</text>
+    <text x="4" y="176" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">interfaces · privacy · atmosphere</text>
+  </g>
+  <g transform="translate(910 240)" opacity=".72">
+    <rect width="184" height="54" rx="14" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="25" cy="27" r="6" fill="#67e8f9"/>
+    <text x="44" y="33" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">local-first / online</text>
+  </g>
+</svg>
