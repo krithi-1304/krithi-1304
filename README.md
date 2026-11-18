@@ -1,58 +1,106 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero.svg">
-  <img src="./assets/profile-hero.svg" alt="Krithi — building quiet, human software" width="900">
-</picture>
+<img src="./assets/profile-hero.svg" alt="KRITHI — local-first digital worlds" width="100%">
 
-<p>
-  <a href="https://github.com/krithi-1304?tab=repositories">repositories</a> ·
-  <a href="https://github.com/krithi-1304/FOGLASS">FOGLASS</a> ·
-  <a href="https://github.com/krithi-1304/Glowmory">Glowmory</a> ·
-  <a href="https://www.linkedin.com/in/krithi-1304/">LinkedIn</a>
-</p>
+<br>
+
+<a href="https://github.com/krithi-1304/FOGLASS">FOGLASS</a> ·
+<a href="https://github.com/krithi-1304/Glowmory">GLOWMORY</a> ·
+<a href="https://github.com/krithi-1304/STICKY_WALL_WORLD">THE BLACK WALL</a> ·
+<a href="https://github.com/krithi-1304?tab=repositories">ALL SIGNALS</a>
 
 </div>
 
-## I build software that feels human
+<br>
 
-I’m Krithi, a developer exploring the space between **interfaces, privacy, and atmosphere**.
+<img src="./assets/project-board.svg" alt="A visual map of Krithi's projects: FOGLASS, Glowmory, The Black Wall, and Portfolio" width="100%">
 
-My projects are small worlds: a fogged mirror you can draw on, a memory jar that glows, and a private wall for handwritten thoughts. I care about local-first experiences, expressive interaction, and products that respect the person using them.
+## I make software with a pulse
 
-## Currently building
+I’m **Krithi** — a developer building small, atmospheric worlds at the edge of interface design and privacy.
 
-**FOGLASS** — a browser-based fog mirror where breath, hands, and handwriting become the interface.
+My work is less about shipping another dashboard and more about asking: **what if software felt like a place?**
 
-→ [Try FOGLASS](https://krithi-1304.github.io/FOGLASS/) · [Read the source](https://github.com/krithi-1304/FOGLASS)
+Camera becomes touch. Breath becomes input. Memories become light. A private diary becomes a room.
 
-## Selected work
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Project | What it is | Signal |
-| --- | --- | --- |
-| [FOGLASS](https://github.com/krithi-1304/FOGLASS) | A sensory browser experience for drawing on fogged glass | Camera + microphone interactions, local processing |
-| [Glowmory](https://github.com/krithi-1304/Glowmory) | A local-first memory jar where good days become fireflies | Privacy-minded product design and gentle visual language |
-| [STICKY_WALL_WORLD](https://github.com/krithi-1304/STICKY_WALL_WORLD) | A private encrypted diary of rooms and handwritten notes | Browser encryption, explicit sharing, offline-first thinking |
-| [Portfolio](https://github.com/krithi-1304/Portfolio) | My evolving home for experiments and work | A place for the ideas between repositories |
+### CURRENT SIGNAL
 
-## My build philosophy
+**FOGLASS** is live.
+
+Point to draw. Open your palm to wipe. Breathe to bring back the steam.
+
+<a href="https://krithi-1304.github.io/FOGLASS/">↗ enter the mirror</a>
+
+</td>
+<td width="50%" valign="top">
+
+### BUILDING TOWARD
+
+Local-first experiences with:
+
+`TypeScript` · `React` · `WebGL` · `Node.js` · `Python`
+
+No needless noise. No mystery cloud. More feeling per pixel.
+
+</td>
+</tr>
+</table>
+
+## The workbench
+
+### `01` / FOGLASS
+
+An interactive fog mirror for drawing, wiping, breathing, and leaving letters in condensation.
+
+**Camera + microphone input · WebGL · local processing**
+
+[try it live](https://krithi-1304.github.io/FOGLASS/) · [inspect the build](https://github.com/krithi-1304/FOGLASS)
+
+### `02` / GLOWMORY
+
+Good days don’t go. They glow. A local-first memory jar for turning moments into fireflies.
+
+**Private by default · expressive interaction · gentle visual systems**
+
+[open the repository](https://github.com/krithi-1304/Glowmory)
+
+### `03` / THE BLACK WALL
+
+A private diary of hanging rooms and handwritten notes, encrypted in the browser.
+
+**Device-local passphrase · encrypted sharing · explicit permissions**
+
+[enter the archive](https://github.com/krithi-1304/STICKY_WALL_WORLD)
+
+## Design principles
 
 ```text
-make it tangible     →  let interaction explain the idea
-keep it local        →  privacy should be the default
-ship the feeling     →  polish the details people remember
+        make it tangible       let interaction explain the idea
+        keep it local           privacy should be the default
+        ship the feeling        polish what people remember
 ```
 
-## Tools I reach for
+<details>
+<summary><b>What I’m learning</b></summary>
+<br>
 
-`TypeScript` · `React` · `Node.js` · `Python` · `WebGL` · `Playwright` · `GitHub Actions`
+How to make browser experiences that feel physical without pretending to be native apps; how to make privacy visible; how to make a repository feel like an invitation instead of a storage unit.
 
-## A small north star
+</details>
 
-> The best software does not ask for attention. It earns trust, then quietly helps.
+<br>
 
 <div align="center">
 
-If you’re building something thoughtful, I’d love to hear about it.
+<a href="https://github.com/krithi-1304">GITHUB</a> ·
+<a href="https://www.linkedin.com/in/krithi-1304/">LINKEDIN</a>
+
+<br><br>
+
+<sub>building quiet, human software from the noisy internet</sub>
 
 </div>
