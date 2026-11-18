@@ -1,94 +1,103 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="KRITHI — local-first digital worlds" width="100%">
+<img src="./assets/profile-hero.svg" alt="Krithi — soft girl, hard tech" width="100%">
 
 <br>
 
-<a href="https://github.com/krithi-1304/FOGLASS">FOGLASS</a> ·
-<a href="https://github.com/krithi-1304/Glowmory">GLOWMORY</a> ·
-<a href="https://github.com/krithi-1304/STICKY_WALL_WORLD">THE BLACK WALL</a> ·
-<a href="https://github.com/krithi-1304?tab=repositories">ALL SIGNALS</a>
+<code>SOFT GIRL / HARD TECH</code>　✦　<code>BUILDING IN PUBLIC</code>　✦　<code>LOCAL-FIRST</code>
+
+<br><br>
+
+<a href="https://github.com/krithi-1304/FOGLASS">FOGLASS</a> ・
+<a href="https://github.com/krithi-1304/Glowmory">GLOWMORY</a> ・
+<a href="https://github.com/krithi-1304/STICKY_WALL_WORLD">BLACK WALL</a> ・
+<a href="https://github.com/krithi-1304?tab=repositories">REPOSITORIES</a>
 
 </div>
 
 <br>
 
-<img src="./assets/project-board.svg" alt="A visual map of Krithi's projects: FOGLASS, Glowmory, The Black Wall, and Portfolio" width="100%">
+<img src="./assets/project-board.svg" alt="Krithi's cyber-femme project dashboard" width="100%">
 
-## I make software with a pulse
+## `whoami` ✦
 
-I’m **Krithi** — a developer building small, atmospheric worlds at the edge of interface design and privacy.
+Hi, I’m **Krithi** — a developer who likes her interfaces expressive, her code clean, and her privacy settings turned all the way up.
 
-My work is less about shipping another dashboard and more about asking: **what if software felt like a place?**
+I build dreamy browser experiences with serious engineering underneath: camera input, microphone interaction, WebGL, encryption, offline-first flows, and a lot of tiny details.
 
-Camera becomes touch. Breath becomes input. Memories become light. A private diary becomes a room.
+> ✧ making the internet a little softer, one shipped experiment at a time
+
+## `now_building` 💿
+
+### **FOGLASS** — a browser mirror you can draw on
+
+Point to draw. Open your palm to wipe. Breathe to bring back the steam.
+
+<a href="https://krithi-1304.github.io/FOGLASS/">↗ launch FOGLASS</a>　<a href="https://github.com/krithi-1304/FOGLASS">↗ view source</a>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### CURRENT SIGNAL
+### `tech_stack`
 
-**FOGLASS** is live.
-
-Point to draw. Open your palm to wipe. Breathe to bring back the steam.
-
-<a href="https://krithi-1304.github.io/FOGLASS/">↗ enter the mirror</a>
+`TypeScript`　`React`　`WebGL`  
+`Node.js`　`Python`　`Playwright`  
+`GitHub Actions`　`Browser APIs`
 
 </td>
 <td width="50%" valign="top">
 
-### BUILDING TOWARD
+### `current_mood`
 
-Local-first experiences with:
-
-`TypeScript` · `React` · `WebGL` · `Node.js` · `Python`
-
-No needless noise. No mystery cloud. More feeling per pixel.
+```text
+╭────────────────────────╮
+│ compiling cute ideas   │
+│ ████████████████░░ 88% │
+╰────────────────────────╯
+```
 
 </td>
 </tr>
 </table>
 
-## The workbench
+## `projects/` ✦
 
-### `01` / FOGLASS
+### `01` **GLOWMORY**
 
-An interactive fog mirror for drawing, wiping, breathing, and leaving letters in condensation.
+Good days don’t go. They glow. A local-first memory jar where moments become fireflies.
 
-**Camera + microphone input · WebGL · local processing**
+`private by default` `gentle UI` `expressive interaction`
 
-[try it live](https://krithi-1304.github.io/FOGLASS/) · [inspect the build](https://github.com/krithi-1304/FOGLASS)
+→ [open repository](https://github.com/krithi-1304/Glowmory)
 
-### `02` / GLOWMORY
+### `02` **THE BLACK WALL**
 
-Good days don’t go. They glow. A local-first memory jar for turning moments into fireflies.
+A private diary of rooms and handwritten notes, encrypted in the browser.
 
-**Private by default · expressive interaction · gentle visual systems**
+`device-local passphrase` `encrypted sharing` `explicit permissions`
 
-[open the repository](https://github.com/krithi-1304/Glowmory)
+→ [enter the archive](https://github.com/krithi-1304/STICKY_WALL_WORLD)
 
-### `03` / THE BLACK WALL
+### `03` **PORTFOLIO**
 
-A private diary of hanging rooms and handwritten notes, encrypted in the browser.
+My open notebook for experiments, ideas, and the things that don’t fit in one repo.
 
-**Device-local passphrase · encrypted sharing · explicit permissions**
+→ [browse the notebook](https://github.com/krithi-1304/Portfolio)
 
-[enter the archive](https://github.com/krithi-1304/STICKY_WALL_WORLD)
-
-## Design principles
+## `principles.exe`
 
 ```text
-        make it tangible       let interaction explain the idea
-        keep it local           privacy should be the default
-        ship the feeling        polish what people remember
+01  make it useful       beauty gets people to stay; usefulness earns trust
+02  keep it local        privacy is a feature, not a footnote
+03  make it feel good    technical does not have to mean cold
 ```
 
 <details>
-<summary><b>What I’m learning</b></summary>
+<summary><b>things I’m currently learning ✦</b></summary>
 <br>
 
-How to make browser experiences that feel physical without pretending to be native apps; how to make privacy visible; how to make a repository feel like an invitation instead of a storage unit.
+How to make browser experiences feel physical; how to turn privacy into a visible design choice; how to build polished products without sanding off all the personality.
 
 </details>
 
@@ -96,11 +105,10 @@ How to make browser experiences that feel physical without pretending to be nati
 
 <div align="center">
 
-<a href="https://github.com/krithi-1304">GITHUB</a> ·
-<a href="https://www.linkedin.com/in/krithi-1304/">LINKEDIN</a>
+<a href="https://github.com/krithi-1304">GITHUB</a>　✦　<a href="https://www.linkedin.com/in/krithi-1304/">LINKEDIN</a>
 
 <br><br>
 
-<sub>building quiet, human software from the noisy internet</sub>
+<sub>made with pink pixels, stubborn debugging, and too many tabs</sub>
 
 </div>
