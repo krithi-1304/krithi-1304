@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 120) rotate(90) scale(120)">
+      <stop stop-color="#351B4B"/>
+      <stop offset="1" stop-color="#110D1D"/>
+    </radialGradient>
+    <linearGradient id="chrome" x1="28" y1="22" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDF7FF"/>
+      <stop offset=".28" stop-color="#D7C9FF"/>
+      <stop offset=".52" stop-color="#FF4FA3"/>
+      <stop offset=".78" stop-color="#B8F7FF"/>
+      <stop offset="1" stop-color="#FFF2FA"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="portrait"><circle cx="120" cy="120" r="88"/></clipPath>
+  </defs>
+
+  <circle cx="120" cy="120" r="116" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="92" stroke="#FF4FA3" stroke-opacity=".22" stroke-width="10" filter="url(#glow)"/>
+  <image href="krithi-avatar.png" x="32" y="32" width="176" height="176" preserveAspectRatio="xMidYMid slice" clip-path="url(#portrait)"/>
+  <circle cx="120" cy="120" r="91" stroke="url(#chrome)" stroke-width="3"/>
+  <circle cx="120" cy="120" r="99" stroke="#B8F7FF" stroke-opacity=".3" stroke-width="1" stroke-dasharray="2 9">
+    <animateTransform attributeName="transform" type="rotate" from="0 120 120" to="360 120 120" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M120 7V20M120 220V233M7 120H20M220 120H233" stroke="#FF4FA3" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="20" r="3" fill="#B8F7FF">
+    <animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="220" cy="120" r="3" fill="#FF4FA3">
+    <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

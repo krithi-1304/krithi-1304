@@ -4,6 +4,17 @@
 
 <br>
 
+<div align="center">
+
+<img src="./assets/krithi-avatar-frame.svg" alt="Animated cyber-femme portrait of Krithi" width="190">
+
+<br>
+<sub>KRITHI // HUMAN INTERFACE ONLINE</sub>
+
+</div>
+
+<br>
+
 <a href="https://github.com/krithi-1304/FOGLASS">FOGLASS</a>　•　<a href="https://github.com/krithi-1304/Glowmory">GLOWMORY</a>　•　<a href="https://github.com/krithi-1304/STICKY_WALL_WORLD">BLACK WALL</a>　•　<a href="https://github.com/krithi-1304?tab=repositories">ALL REPOS</a>
 
 </div>
