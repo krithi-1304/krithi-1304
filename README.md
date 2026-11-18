@@ -41,8 +41,8 @@ Point to draw. Open your palm to wipe. Breathe to bring back the steam.
 
 ### `tech_stack`
 
-`TypeScript`　`React`　`WebGL`  
-`Node.js`　`Python`　`Playwright`  
+`TypeScript`　`React`　`WebGL`<br>
+`Node.js`　`Python`　`Playwright`<br>
 `GitHub Actions`　`Browser APIs`
 
 </td>
