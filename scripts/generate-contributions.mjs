@@ -17,11 +17,13 @@ const calendar = payload.data.user.contributionsCollection.contributionCalendar;
 const weeks = calendar.weeks;
 const cell = 13;
 const gap = 4;
-const x0 = 190;
+const x0 = 0;
 const y0 = 90;
 const plotWidth = weeks.length * (cell + gap) - gap;
 const total = calendar.totalContributions;
 const max = Math.max(...weeks.flatMap((week) => week.contributionDays.map((day) => day.contributionCount)), 1);
+const activeWeeks = weeks.filter((week) => week.contributionDays.some((day) => day.contributionCount > 0)).length;
+const peakDay = weeks.flatMap((week) => week.contributionDays).reduce((peak, day) => day.contributionCount > peak.contributionCount ? day : peak, { contributionCount: 0, date: '' });
 const palette = ['#25122f', '#60204e', '#a52c73', '#ed4ca3', '#ff9bd2'];
 const colorFor = (count) => count === 0 ? palette[0] : palette[Math.min(palette.length - 1, Math.ceil((count / max) * (palette.length - 1)))];
 const escape = (value) => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;');
@@ -39,7 +41,7 @@ const monthLabels = weeks.map((week, index) => {
   return `<text x="${x0 + index * (cell + gap)}" y="72">${new Date(`${date}T00:00:00Z`).toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }).toUpperCase()}</text>`;
 }).join('');
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 260" role="img" aria-labelledby="title desc">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 300" role="img" aria-labelledby="title desc">
   <title id="title">${total} GitHub contributions in the last year</title>
   <desc id="desc">An animated pink contribution heatmap generated from Krithi's public GitHub contribution calendar.</desc>
   <defs>
@@ -49,14 +51,12 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 260" role
       text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1px} rect{animation:light 3.8s ease-in-out infinite alternate} .scan{animation:scan 6s linear infinite}@keyframes light{to{filter:brightness(1.42)}}@keyframes scan{to{transform:translateY(168px)}}
     </style>
   </defs>
-  <rect width="1400" height="260" rx="24" fill="url(#bg)" stroke="url(#chrome)" stroke-opacity=".58"/>
-  <text x="40" y="42" fill="#f9a8d4" font-size="14">/ CONTRIBUTION CONSOLE / LAST 12 MONTHS</text>
-  <text x="1360" y="42" text-anchor="end" fill="#67e8f9" font-size="14">${total} SIGNALS</text>
-  <text x="40" y="120" fill="#c4b5fd" font-size="12">MON</text><text x="40" y="158" fill="#c4b5fd" font-size="12">WED</text><text x="40" y="196" fill="#c4b5fd" font-size="12">FRI</text>
-  <g fill="#c4b5fd" font-size="11">${monthLabels}</g>
-  <g>${cells}</g>
-  <path class="scan" d="M176 88H1360" stroke="#67e8f9" stroke-opacity=".18"/>
-  <g transform="translate(1090 218)" font-size="11" fill="#94a3b8"><text x="0" y="0">LESS</text>${palette.map((color, index) => `<rect x="${38 + index * 20}" y="-11" width="12" height="12" rx="3" fill="${color}"/>`).join('')}<text x="154" y="0">MORE</text></g>
+  <rect width="1400" height="300" rx="24" fill="url(#bg)" stroke="url(#chrome)" stroke-opacity=".58"/>
+  <text x="40" y="42" fill="#f9a8d4" font-size="14">/ CONTRIBUTION CONTROL ROOM / LAST 12 MONTHS</text>
+  <text x="1360" y="42" text-anchor="end" fill="#67e8f9" font-size="14">PUBLIC ACTIVITY</text>
+  <g transform="translate(40 78)"><text fill="#67e8f9" font-size="11">TOTAL SIGNALS</text><text y="42" fill="#fff" font-size="34">${total}</text><text y="76" fill="#c4b5fd" font-size="11">CONTRIBUTIONS</text><path d="M0 94H110" stroke="#f9a8d4" stroke-width="4"/><text y="126" fill="#67e8f9" font-size="11">ACTIVE WEEKS</text><text y="160" fill="#fff" font-size="28">${activeWeeks}<tspan fill="#c4b5fd" font-size="13"> / 53</tspan></text><text y="202" fill="#f9a8d4" font-size="11">PEAK DAY</text><text y="230" fill="#fff" font-size="18">${peakDay.contributionCount} commits</text></g>
+  <g transform="translate(190 0)"><text x="0" y="120" fill="#c4b5fd" font-size="12">MON</text><text x="0" y="158" fill="#c4b5fd" font-size="12">WED</text><text x="0" y="196" fill="#c4b5fd" font-size="12">FRI</text><g fill="#c4b5fd" font-size="11">${monthLabels}</g><g>${cells}</g><path class="scan" d="M-14 88H1170" stroke="#67e8f9" stroke-opacity=".18"/></g>
+  <g transform="translate(1090 265)" font-size="11" fill="#94a3b8"><text x="0" y="0">LESS</text>${palette.map((color, index) => `<rect x="38" y="${-11 + index * 0}" width="12" height="12" rx="3" fill="${color}" transform="translate(${index * 20} 0)"/>`).join('')}<text x="154" y="0">MORE</text></g>
 </svg>`;
 
 await mkdir('assets', { recursive: true });

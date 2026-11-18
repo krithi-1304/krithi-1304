@@ -1,109 +1,88 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="Krithi — soft girl, hard tech" width="100%">
+<img src="./assets/profile-hero.svg" alt="Krithi's cyber-femme developer profile" width="100%">
 
 <br>
 
-<code>SOFT GIRL / HARD TECH</code>　✦　<code>BUILDING IN PUBLIC</code>　✦　<code>LOCAL-FIRST</code>
-
-<br><br>
-
-<a href="https://github.com/krithi-1304/FOGLASS">FOGLASS</a> ・
-<a href="https://github.com/krithi-1304/Glowmory">GLOWMORY</a> ・
-<a href="https://github.com/krithi-1304/STICKY_WALL_WORLD">BLACK WALL</a> ・
-<a href="https://github.com/krithi-1304?tab=repositories">REPOSITORIES</a>
+<a href="https://github.com/krithi-1304/FOGLASS">FOGLASS</a>　•　<a href="https://github.com/krithi-1304/Glowmory">GLOWMORY</a>　•　<a href="https://github.com/krithi-1304/STICKY_WALL_WORLD">BLACK WALL</a>　•　<a href="https://github.com/krithi-1304?tab=repositories">ALL REPOS</a>
 
 </div>
 
 <br>
 
-<img src="./assets/project-board.svg" alt="Krithi's cyber-femme project dashboard" width="100%">
+<img src="./assets/command-center.svg" alt="Krithi's developer command center showing current build, stack, and status" width="100%">
 
-## `whoami` ✦
+<br>
 
-Hi, I’m **Krithi** — a developer who likes her interfaces expressive, her code clean, and her privacy settings turned all the way up.
+## `krithi.exe` / developer + dreamer
 
-I build dreamy browser experiences with serious engineering underneath: camera input, microphone interaction, WebGL, encryption, offline-first flows, and a lot of tiny details.
+I build playful interfaces with serious systems underneath: camera input, microphone interaction, WebGL, browser encryption, offline-first flows, and lots of tiny details.
 
-> ✧ making the internet a little softer, one shipped experiment at a time
+I like technology that feels **expressive, personal, and a little magical**.
 
-## `now_building` 💿
+### `now_loading`
 
-### **FOGLASS** — a browser mirror you can draw on
+**FOGLASS** — a browser mirror you can draw on. Point to draw, open your palm to wipe, breathe to bring the steam back.
 
-Point to draw. Open your palm to wipe. Breathe to bring back the steam.
+<a href="https://krithi-1304.github.io/FOGLASS/">LAUNCH LIVE BUILD ↗</a>　 <a href="https://github.com/krithi-1304/FOGLASS">READ THE SOURCE ↗</a>
 
-<a href="https://krithi-1304.github.io/FOGLASS/">↗ launch FOGLASS</a>　<a href="https://github.com/krithi-1304/FOGLASS">↗ view source</a>
+<br><br>
+
+<img src="./assets/project-board.svg" alt="Featured projects: FOGLASS, Glowmory, The Black Wall, and Portfolio" width="100%">
+
+## `contribution_control_room`
+
+<img src="./assets/contributions.svg" alt="Animated contribution control room showing Krithi's GitHub activity" width="100%">
+
+<div align="center"><sub>real GitHub activity · refreshed daily · pink pixels instead of default green</sub></div>
+
+<br>
+
+## `stack / signal / intent`
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### `tech_stack`
+### `01` / STACK
 
-`TypeScript`　`React`　`WebGL`<br>
-`Node.js`　`Python`　`Playwright`<br>
-`GitHub Actions`　`Browser APIs`
+`TypeScript`<br>
+`React`<br>
+`WebGL`<br>
+`Node.js`<br>
+`Python`<br>
+`Playwright`
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### `current_mood`
+### `02` / SIGNAL
 
-```text
-╭────────────────────────╮
-│ compiling cute ideas   │
-│ ████████████████░░ 88% │
-╰────────────────────────╯
-```
+✦ local-first<br>
+✦ privacy-minded<br>
+✦ expressive UI<br>
+✦ browser-native<br>
+✦ shipping experiments
+
+</td>
+<td width="33%" valign="top">
+
+### `03` / INTENT
+
+Make it tangible.<br>
+Keep it local.<br>
+Make it feel good.<br>
+Ship the feeling.
 
 </td>
 </tr>
 </table>
 
-## `contribution_console` ✦
-
-<img src="./assets/contributions.svg" alt="Krithi's animated contribution console showing the last year of GitHub activity" width="100%">
-
-<sub>updated automatically from my public GitHub activity · no fake stats, just the commit trail</sub>
-
-## `projects/` ✦
-
-### `01` **GLOWMORY**
-
-Good days don’t go. They glow. A local-first memory jar where moments become fireflies.
-
-`private by default` `gentle UI` `expressive interaction`
-
-→ [open repository](https://github.com/krithi-1304/Glowmory)
-
-### `02` **THE BLACK WALL**
-
-A private diary of rooms and handwritten notes, encrypted in the browser.
-
-`device-local passphrase` `encrypted sharing` `explicit permissions`
-
-→ [enter the archive](https://github.com/krithi-1304/STICKY_WALL_WORLD)
-
-### `03` **PORTFOLIO**
-
-My open notebook for experiments, ideas, and the things that don’t fit in one repo.
-
-→ [browse the notebook](https://github.com/krithi-1304/Portfolio)
-
-## `principles.exe`
-
-```text
-01  make it useful       beauty gets people to stay; usefulness earns trust
-02  keep it local        privacy is a feature, not a footnote
-03  make it feel good    technical does not have to mean cold
-```
-
 <details>
-<summary><b>things I’m currently learning ✦</b></summary>
+<summary><b>open the lab notes</b></summary>
 <br>
 
-How to make browser experiences feel physical; how to turn privacy into a visible design choice; how to build polished products without sanding off all the personality.
+I’m exploring how browser software can feel physical without pretending to be a native app; how privacy can be visible in the interface; and how technical work can stay warm, weird, and human.
 
 </details>
 
@@ -111,10 +90,10 @@ How to make browser experiences feel physical; how to turn privacy into a visibl
 
 <div align="center">
 
-<a href="https://github.com/krithi-1304">GITHUB</a>　✦　<a href="https://www.linkedin.com/in/krithi-1304/">LINKEDIN</a>
+<a href="https://github.com/krithi-1304">GITHUB</a>　•　<a href="https://www.linkedin.com/in/krithi-1304/">LINKEDIN</a>
 
 <br><br>
 
-<sub>made with pink pixels, stubborn debugging, and too many tabs</sub>
+<sub>built with pink pixels, clean code, and too many tabs open</sub>
 
 </div>
