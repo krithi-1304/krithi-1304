@@ -61,6 +61,12 @@ Point to draw. Open your palm to wipe. Breathe to bring back the steam.
 </tr>
 </table>
 
+## `contribution_console` ✦
+
+<img src="./assets/contributions.svg" alt="Krithi's animated contribution console showing the last year of GitHub activity" width="100%">
+
+<sub>updated automatically from my public GitHub activity · no fake stats, just the commit trail</sub>
+
 ## `projects/` ✦
 
 ### `01` **GLOWMORY**
